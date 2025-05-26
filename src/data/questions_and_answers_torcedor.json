@@ -1,0 +1,24 @@
+[
+    {
+        "pergunta": "Bruno Pacheco foi bem no jogo contra o Ceará no dia 1º de abril de 2023 ou deixou a desejar?",
+        "perfil": "Torcedor do Time",
+        "dados_personareact": {
+          "Velocidade_Media": 1.3622634444889454,
+          "Aceleracao_Media": -0.007713032315664035,
+          "Quantidade_Sprints": 0.3627760252365931,
+          "Tempo_Correndo": 1.337539432176656,
+          "Tempo_Sprintando": 0.3627760252365931
+        },
+        "resposta_personareact": "Bruno Pacheco teve um desempenho que deixou a desejar no jogo contra o Ceará no dia 1º de abril de 2023. Ele apresentou uma velocidade média de apenas 1.36 m/s, o que é abaixo do esperado para um jogador em sua posição. Além disso, sua aceleração média foi negativa, o que indica que ele teve dificuldades em ganhar velocidade durante a partida. Com apenas 0.36 sprints e um tempo correndo de 1.34 minutos, não conseguimos ver aquele Bruno Pacheco vibrante que todos nós torcedores conhecemos. Vamos torcer para que ele se recupere e volte a brilhar nos próximos jogos!",
+        "dados_react": {
+          "Media_Velocidade": 1.3622634444889454,
+          "Media_Aceleracao": -0.007713032315664035,
+          "Media_Sprints": 0.3627760252365931,
+          "Media_Tempo_Parado": 1.4605678233438486,
+          "Media_Tempo_Caminhando": 9.659305993690852,
+          "Media_Tempo_Correndo": 1.337539432176656,
+          "Media_Tempo_Sprintando": 0.3627760252365931
+        },
+        "resposta_react_prompt": "Bruno Pacheco teve um desempenho misto no jogo contra o Ceará no dia 1º de abril de 2023. Sua média de velocidade foi de 1.36 m/s, com uma média de sprints de 0.36 por minuto. No entanto, ele passou 1.46 minutos parado e apenas 1.34 minutos correndo, o que pode indicar uma performance abaixo do esperado para um jogador em campo."
+    }
+]

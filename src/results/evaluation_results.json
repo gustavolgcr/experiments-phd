@@ -1,0 +1,121 @@
+[
+    {
+        "pergunta": "Bruno Pacheco foi bem no jogo contra o Ceará no dia 1º de abril de 2023 ou deixou a desejar?",
+        "perfil": "Torcedor do Time",
+        "criterio": "AdequacaoAoPerfil",
+        "evaluation_steps": [
+            "Verifique se a resposta trata dos conteúdos relevantes para o perfil do usuário.",
+            "Avalie se o nível de linguagem utilizado na resposta é adequado ao perfil descrito.",
+            "Observe se a forma de apresentação foi moldada para atender às necessidades específicas do perfil indicado.",
+            "Confirme se a resposta é explicitamente adequada em relação ao perfil do usuário na pergunta."
+        ],
+        "score_personareact": 9.54,
+        "reason_personareact": "The response addresses the user's interest as a fan by evaluating Bruno Pacheco's performance using the provided data. The language is appropriate for a fan, and the presentation is tailored to the user's perspective, expressing both disappointment and hope for improvement.",
+        "score_react_prompt": 8.26,
+        "reason_react_prompt": "The response addresses the user's interest by evaluating Bruno Pacheco's performance using relevant statistics. The language is appropriate for a fan, providing a balanced view. However, it could be more tailored by explicitly comparing his performance to typical expectations for a player.",
+        "percentual_ganho_personareact": 15.5,
+        "vencedor": "PersonaReAct"
+    },
+    {
+        "pergunta": "Bruno Pacheco foi bem no jogo contra o Ceará no dia 1º de abril de 2023 ou deixou a desejar?",
+        "perfil": "Torcedor do Time",
+        "criterio": "UsoDeInformacoesRelevantes",
+        "evaluation_steps": [
+            "Verify if the actual output includes information pertinent to the specified user profile.",
+            "Assess the practical utility of the data provided in the actual output for the identified user's needs.",
+            "Identify any critical information omissions that would typically be expected by the user profile.",
+            "Compare the relevance and completeness of the actual output against the expectations derived from the input profile description."
+        ],
+        "score_personareact": 9.12,
+        "reason_personareact": "The output includes specific performance metrics relevant to the user profile of a team supporter, such as speed, sprints, and acceleration, which are pertinent to evaluating a player's performance. It provides practical utility by assessing the player's performance as below expectations, aligning with the user's interest. There are no critical omissions, and the output is relevant and complete based on the input data.",
+        "score_react_prompt": 7.95,
+        "reason_react_prompt": "The output includes relevant performance metrics for Bruno Pacheco, such as average speed and time spent in various activities, which are pertinent to a fan's interest. However, it lacks a direct comparison to typical performance expectations, which would enhance its utility for the user.",
+        "percentual_ganho_personareact": 14.72,
+        "vencedor": "PersonaReAct"
+    },
+    {
+        "pergunta": "Bruno Pacheco foi bem no jogo contra o Ceará no dia 1º de abril de 2023 ou deixou a desejar?",
+        "perfil": "Torcedor do Time",
+        "criterio": "TomEEstiloAdequado",
+        "evaluation_steps": [
+            "Compare the input profile with the tone and style of the actual output to ensure alignment.",
+            "Evaluate the vocabulary used in the output, determining if it matches the expected level of formality and complexity for the given profile.",
+            "Assess whether the type of narrative (objective, analytical, engaging, direct) in the output is appropriate for the input profile provided.",
+            "Check for consistency between the input's expectations and the overall delivery style of the actual output."
+        ],
+        "score_personareact": 9.13,
+        "reason_personareact": "The output aligns well with the tone and style expected from a 'Torcedor do Time' profile, using an engaging and direct narrative. The vocabulary is informal and matches the fan perspective. The analysis of Bruno Pacheco's performance is consistent with the data provided, though it could slightly improve by being more objective.",
+        "score_react_prompt": 8.44,
+        "reason_react_prompt": "The output aligns with the input profile of a 'Torcedor do Time' by providing a direct and engaging analysis of Bruno Pacheco's performance. The vocabulary is appropriate for a sports fan, and the narrative is objective and analytical, matching the user's interest in performance details. However, it could be slightly more engaging to fully meet a fan's expectations.",
+        "percentual_ganho_personareact": 8.18,
+        "vencedor": "PersonaReAct"
+    },
+    {
+        "pergunta": "Bruno Pacheco foi bem no jogo contra o Ceará no dia 1º de abril de 2023 ou deixou a desejar?",
+        "perfil": "Torcedor do Time",
+        "criterio": "ClarezaNaComunicacao",
+        "evaluation_steps": [
+            "Compare the Input and Actual Output to ensure that the response is clear and provides a straightforward answer to the user's query.",
+            "Check the paragraph organization and logical sequence of points in the Actual Output to verify if it aligns with how the Input describes the ideal structure.",
+            "Identify any ambiguities in the Actual Output that may hinder understanding and compare with the expectations outlined in the Input.",
+            "Evaluate the use of terminology in the Actual Output to ensure it is appropriate and comprehensible for the user profile described in the Input."
+        ],
+        "score_personareact": 9.33,
+        "reason_personareact": "The response clearly states that Bruno Pacheco's performance was below expectations, aligning with the user's query. The output is well-organized, mentioning specific statistics like average speed and sprints, which are relevant to the user's interest as a fan. The terminology is appropriate and understandable, with no significant ambiguities present.",
+        "score_react_prompt": 8.38,
+        "reason_react_prompt": "The response is clear and provides a straightforward answer, indicating a mixed performance with specific statistics. The paragraph is well-organized, but the conclusion about performance could be more explicit. Terminology is appropriate for a fan.",
+        "percentual_ganho_personareact": 11.34,
+        "vencedor": "PersonaReAct"
+    },
+    {
+        "pergunta": "Bruno Pacheco foi bem no jogo contra o Ceará no dia 1º de abril de 2023 ou deixou a desejar?",
+        "perfil": "Torcedor do Time",
+        "criterio": "PersonalizacaoExplicita",
+        "evaluation_steps": [
+            "Compare the Input profile with the Actual Output to identify if specific data has been selected or highlighted.",
+            "Examine the Actual Output for any adjustments in detail level that align with the Input profile specifications.",
+            "Assess whether the focus and textual style in the Actual Output have been modified to suit the described profile.",
+            "Check for any explicit signs in the Actual Output demonstrating a personalized approach based on the Input profile."
+        ],
+        "score_personareact": 9.22,
+        "reason_personareact": "The Actual Output effectively highlights specific data from the Input, such as average speed and sprints, and aligns with the user's profile as a fan by expressing hope for future improvement. The style is personalized for a fan, but lacks explicit mention of the user's profile.",
+        "score_react_prompt": 8.19,
+        "reason_react_prompt": "The Actual Output highlights specific data such as average speed and sprints, aligning with the Input profile of a 'Torcedor do Time'. It adjusts the detail level by interpreting the data to suggest a mixed performance, which suits the fan's perspective. However, it lacks explicit signs of personalization beyond data interpretation.",
+        "percentual_ganho_personareact": 12.58,
+        "vencedor": "PersonaReAct"
+    },
+    {
+        "pergunta": "Bruno Pacheco foi bem no jogo contra o Ceará no dia 1º de abril de 2023 ou deixou a desejar?",
+        "perfil": "Torcedor do Time",
+        "criterio": "SelecaoDeDadosRelevantes",
+        "evaluation_steps": [
+            "Assess if the selected data in the Output corresponds directly to the most relevant metrics for the specified profile in the Input.",
+            "Evaluate if there was intentional filtering of useful metrics based on the Input profile (e.g., sprints and acceleration for technicians; physical effort and recovery for physiotherapists).",
+            "Identify any irrelevant data included in the Output that do not pertain to the Input profile and penalize their inclusion.",
+            "Check for any important data omissions in the Output that should have been included based on the Input profile and penalize these omissions."
+        ],
+        "score_personareact": 8.91,
+        "reason_personareact": "The output correctly uses relevant metrics like average speed, sprints, and acceleration to assess performance, aligning with the fan profile. No irrelevant data is included, and all available metrics are addressed.",
+        "score_react_prompt": 8.44,
+        "reason_react_prompt": "The output includes relevant metrics like average speed, sprints, and time spent running, which are pertinent to a fan's interest. However, it also mentions time spent standing, which might be less relevant, and does not address acceleration, which could be of interest.",
+        "percentual_ganho_personareact": 5.57,
+        "vencedor": "PersonaReAct"
+    },
+    {
+        "pergunta": "Bruno Pacheco foi bem no jogo contra o Ceará no dia 1º de abril de 2023 ou deixou a desejar?",
+        "perfil": "Torcedor do Time",
+        "criterio": "AusenciaDeAlucinacoes",
+        "evaluation_steps": [
+            "Check if all claims in the Actual Output are directly supported by the data in the Input.",
+            "Identify any facts, numbers, or events mentioned in the Actual Output that do not have a corresponding basis in the Input.",
+            "Penalize instances where the Actual Output introduces information not found in the Input context.",
+            "Ensure that the Actual Output is fully aligned with the information and scope provided in the Input."
+        ],
+        "score_personareact": 8.67,
+        "reason_personareact": "The Actual Output accurately reflects the data from the Input, mentioning the average speed, sprints, and negative acceleration. However, it introduces subjective interpretation about the player's performance and potential, which is not directly supported by the Input data.",
+        "score_react_prompt": 9.42,
+        "reason_react_prompt": "All claims in the Actual Output are directly supported by the data in the Input, including specific statistics like average speed, sprints, and time spent in various activities. The output does not introduce any information not found in the Input and aligns fully with the provided data.",
+        "percentual_ganho_personareact": -7.96,
+        "vencedor": "ReAct com Prompt Enriquecido"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "pergunta": "Compare o desempenho de Bruno Pacheco e Yago Pikachu no jogo contra o Ceará no dia 1º de abril de 2023, destacando os pontos fortes de cada um.",
+        "perfil": "Técnico do Time",
+        "dados_personareact": {
+            "Bruno Pacheco": {
+                "Velocidade_Media": 1.3622634444889454,
+                "Aceleracao_Media": -0.007713032315664035,
+                "Quantidade_Sprints": 0.3627760252365931,
+                "Media_Mudanca_Direcao": 62.36297011190417,
+                "Quantidade_Mudanca_Direcao": 4.182965299684542,
+                "Tempo_Sprintando": 0.3627760252365931
+            },
+            "Yago Pikachu": {
+                "Velocidade_Media": 1.2044081145543035,
+                "Aceleracao_Media": 0.013949646426982142,
+                "Quantidade_Sprints": 0.16326530612244897,
+                "Media_Mudanca_Direcao": 52.603869040988144,
+                "Quantidade_Mudanca_Direcao": 3.877551020408163,
+                "Tempo_Sprintando": 0.16326530612244897
+            }
+        },
+        "resposta_personareact": "No jogo contra o Ceará em 1º de abril de 2023, a análise do desempenho de Bruno Pacheco e Yago Pikachu revela aspectos táticos importantes para a sua avaliação como técnico do time.\n\n**Bruno Pacheco:**  \n- **Velocidade Média:** 1.36 m/s  \n- **Mudanças de Direção:** 4.18  \n- **Tempo Sprintando:** 0.36 s  \n\nBruno se destacou pela sua velocidade média, o que indica uma boa capacidade de movimentação em campo, essencial para a criação de jogadas e cobertura defensiva. Além disso, a quantidade de mudanças de direção sugere que ele é eficaz em situações de drible e adaptação rápida ao jogo, o que pode ser crucial em momentos de pressão.\n\n**Yago Pikachu:**  \n- **Aceleração Média:** 0.014 m/s  \n- **Mudanças de Direção:** 3.88  \n- **Tempo Sprintando:** 0.16 s  \n\nYago, por sua vez, apresentou uma leve vantagem em aceleração média, o que pode ser um diferencial em contra-ataques e em situações onde a velocidade inicial é fundamental. Embora tenha realizado menos mudanças de direção, sua agilidade em sprints pode ser explorada em jogadas rápidas e incisivas.\n\n**Resumo:**  \nBruno Pacheco se destacou pela velocidade e capacidade de movimentação, enquanto Yago Pikachu mostrou uma leve vantagem em aceleração, o que pode ser aproveitado em jogadas rápidas. Como técnico, é importante considerar essas características ao planejar estratégias e formações para os próximos jogos.",
+        "dados_react": {
+            "Bruno Pacheco": {
+                "Velocidade_Media": 1.3622634444889454,
+                "Aceleracao_Media": -0.007713032315664035,
+                "Total_Sprints": 115,
+                "Total_Tempo_Parado": 463,
+                "Total_Tempo_Caminhando": 3062,
+                "Total_Tempo_Correndo": 424,
+                "Total_Tempo_Sprintando": 115,
+                "Coeficiente_Variacao_Velocidade": 0.41166713603687344,
+                "Total_Alta_Aceleracao": 249,
+                "Total_Alta_Desaceleracao": 211,
+                "Media_Curvatura": 1.1125611265315614
+            },
+            "Yago Pikachu": {
+                "Velocidade_Media": 1.2044081145543035,
+                "Aceleracao_Media": 0.013949646426982142,
+                "Total_Sprints": 16,
+                "Total_Tempo_Parado": 205,
+                "Total_Tempo_Caminhando": 779,
+                "Total_Tempo_Correndo": 109,
+                "Total_Tempo_Sprintando": 16,
+                "Coeficiente_Variacao_Velocidade": 0.3728014179136475,
+                "Total_Alta_Aceleracao": 60,
+                "Total_Alta_Desaceleracao": 56,
+                "Media_Curvatura": 1.126605391695676
+            }
+        },
+        "resposta_react_prompt": "No jogo contra o Ceará no dia 1º de abril de 2023, Bruno Pacheco apresentou um desempenho superior em termos de velocidade média (1.36 m/s) e total de sprints (115), o que indica uma maior capacidade de explosão e movimentação em campo. Ele também teve um coeficiente de variação de velocidade mais alto (0.41), sugerindo uma maior variação em sua velocidade durante o jogo. Por outro lado, Yago Pikachu teve uma aceleração média positiva (0.014 m/s²), o que pode indicar uma boa capacidade de aceleração em jogadas específicas, apesar de ter realizado menos sprints (16) e ter uma velocidade média inferior (1.20 m/s). A média de curvatura de Yago (1.13) é ligeiramente superior à de Bruno (1.11), o que pode indicar uma melhor habilidade em manobras e mudanças de direção. Em resumo, Bruno Pacheco se destacou pela sua velocidade e quantidade de sprints, enquanto Yago Pikachu mostrou uma boa aceleração e habilidade em curvas."
+    },
+    {
+        "pergunta": "Compare o desempenho de Bruno Pacheco e Yago Pikachu no jogo contra o Ceará no dia 1º de abril de 2023, destacando os pontos fortes de cada um.",
+        "perfil": "Torcedor do Time",
+        "dados_personareact": {
+            "Bruno Pacheco": {
+              "Media_Velocidade": 1.3623,
+              "Media_Aceleracao": -0.0077,
+              "Media_Sprints": 0.3628,
+              "Media_Mudanca_Direcao": 62.3630,
+              "Media_Quantidade_Mudanca_Direcao": 4.1830
+            },
+            "Yago Pikachu": {
+              "Media_Velocidade": 1.2044,
+              "Media_Aceleracao": 0.0139,
+              "Media_Sprints": 0.1633,
+              "Media_Mudanca_Direcao": 52.6039,
+              "Media_Quantidade_Mudanca_Direcao": 3.8776
+            }
+          },
+        "resposta_personareact": "No emocionante jogo contra o Ceará no dia 1º de abril de 2023, Bruno Pacheco brilhou em campo, mostrando um desempenho impressionante que deixou os torcedores animados! Ele teve uma média de velocidade de 1.3623, superando Yago Pikachu, que registrou 1.2044. Isso significa que Bruno estava mais rápido e ágil, o que é fundamental para criar jogadas e pressionar a defesa adversária.\n\nAlém disso, Bruno se destacou em sprints, com uma média de 0.3628, enquanto Yago teve apenas 0.1633. Isso mostra que Bruno estava mais ativo e disposto a se lançar em jogadas rápidas, algo que certamente empolgou a torcida! \n\nEm termos de mudanças de direção, Bruno também levou a melhor, com uma média de 62.3630, em comparação com 52.6039 de Yago. Essa habilidade é crucial para driblar os adversários e criar oportunidades de gol. \n\nPor outro lado, Yago Pikachu teve uma leve vantagem em aceleração, com uma média de 0.0139, enquanto Bruno teve -0.0077. Isso indica que, embora Bruno tenha sido mais rápido em geral, Yago pode ter conseguido arrancadas mais rápidas em momentos específicos.\n\nEm resumo, Bruno Pacheco se destacou com sua velocidade, capacidade de sprints e mudanças de direção, enquanto Yago Pikachu mostrou um bom potencial em aceleração. Para nós, torcedores, é sempre emocionante ver nossos jogadores se destacando e contribuindo para o sucesso do time!",
+        "dados_react": {
+            "Bruno Pacheco": {
+              "Velocidade_Media": 1.3622634444889454,
+              "Aceleracao_Media": -0.007713032315664035,
+              "Total_Sprints": 115,
+              "Total_Tempo_Parado": 463,
+              "Total_Tempo_Caminhando": 3062,
+              "Total_Tempo_Correndo": 424,
+              "Total_Tempo_Sprintando": 115,
+              "Coeficiente_Variacao_Velocidade": 0.41166713603687344,
+              "Total_Alta_Aceleracao": 211,
+              "Total_Alta_Desaceleracao": 1.1125611265315614
+            },
+            "Yago Pikachu": {
+              "Velocidade_Media": 1.2044081145543035,
+              "Aceleracao_Media": 0.013949646426982142,
+              "Total_Sprints": 16,
+              "Total_Tempo_Parado": 205,
+              "Total_Tempo_Caminhando": 779,
+              "Total_Tempo_Correndo": 109,
+              "Total_Tempo_Sprintando": 16,
+              "Coeficiente_Variacao_Velocidade": 0.3728014179136475,
+              "Total_Alta_Aceleracao": 56,
+              "Total_Alta_Desaceleracao": 1.126605391695676
+            }
+          },
+        "resposta_react_prompt": "No jogo contra o Ceará no dia 1º de abril de 2023, Bruno Pacheco se destacou com uma média de velocidade de 1.36 m/s e um total de 115 sprints, mostrando grande capacidade de movimentação e resistência. Ele também teve um tempo considerável correndo e sprintando, o que indica um bom desempenho físico. Por outro lado, Yago Pikachu apresentou uma média de velocidade de 1.20 m/s, com 16 sprints, mas sua aceleração média foi positiva (0.014), o que sugere que ele pode ter sido mais eficiente em jogadas rápidas, apesar de ter menos sprints. Portanto, Bruno Pacheco se destacou pela quantidade de sprints e velocidade, enquanto Yago Pikachu teve um desempenho mais focado em jogadas rápidas e eficientes."
+    }
+]

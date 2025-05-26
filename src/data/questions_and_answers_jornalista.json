@@ -1,0 +1,23 @@
+[
+    {
+        "pergunta": "O que mais chamou atenção no desempenho de Bruno Pacheco no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Jornalista Esportivo",
+        "dados_personareact": {
+          "Media_Velocidade": 1.3622634444889454,
+          "Media_Aceleracao": -0.007713032315664035,
+          "Total_Sprints": 115,
+          "Total_Mudancas_Direcao": 1326
+        },
+        "resposta_personareact": "No jogo contra o Ceará no dia 1º de abril de 2023, Bruno Pacheco teve um desempenho impressionante que certamente merece destaque. Ele apresentou uma média de velocidade de 1.36 m/s, o que demonstra sua capacidade de se movimentar rapidamente pelo campo. Além disso, o jogador completou 115 sprints, evidenciando sua disposição e intensidade durante a partida. Outro ponto notável foi o total de 1326 mudanças de direção, que ressalta sua agilidade e habilidade em se adaptar às dinâmicas do jogo. Esses números não apenas refletem seu esforço físico, mas também sua importância tática na equipe, contribuindo significativamente para o desempenho geral do time. Sem dúvida, Bruno Pacheco se destacou como um jogador chave nesse confronto.",
+        "dados_react": {
+          "Nome_Jogador": "Bruno Pacheco",
+          "Funcao_Jogador": "DEFENSOR",
+          "Data_Jogo": "2023-04-01",
+          "Adversario": "Ceará",
+          "Media_Velocidade": 1.3622634444889454,
+          "Media_Aceleracao": -0.007713032315664035,
+          "Media_Sprints": 0.3627760252365931
+        },
+        "resposta_react_prompt": "No jogo contra o Ceará em 1º de abril de 2023, Bruno Pacheco se destacou por sua média de velocidade de 1.36 m/s, o que indica uma boa mobilidade em campo. No entanto, sua média de aceleração foi negativa, com -0.0077, sugerindo que ele pode ter enfrentado dificuldades em iniciar corridas rápidas. Além disso, ele teve uma média de 0.36 sprints por jogo, o que pode indicar uma participação moderada em jogadas ofensivas."
+    }
+]

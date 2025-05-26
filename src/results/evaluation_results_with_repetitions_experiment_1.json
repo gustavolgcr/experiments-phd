@@ -1,0 +1,1322 @@
+[
+    {
+        "pergunta": "Bruno Pacheco foi bem no jogo contra o Ceará no dia 1º de abril de 2023 ou deixou a desejar?",
+        "perfil": "Torcedor do Time",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            3.29
+        ],
+        "scores_resposta_personalizada": [
+            8.22
+        ]
+    },
+    {
+        "pergunta": "Bruno Pacheco foi bem no jogo contra o Ceará no dia 1º de abril de 2023 ou deixou a desejar?",
+        "perfil": "Torcedor do Time",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            2.59
+        ],
+        "scores_resposta_personalizada": [
+            4.68
+        ]
+    },
+    {
+        "pergunta": "Bruno Pacheco foi bem no jogo contra o Ceará no dia 1º de abril de 2023 ou deixou a desejar?",
+        "perfil": "Torcedor do Time",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            8.14
+        ],
+        "scores_resposta_personalizada": [
+            9.01
+        ]
+    },
+    {
+        "pergunta": "Bruno Pacheco foi bem no jogo contra o Ceará no dia 1º de abril de 2023 ou deixou a desejar?",
+        "perfil": "Torcedor do Time",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            4.56
+        ],
+        "scores_resposta_personalizada": [
+            9.95
+        ]
+    },
+    {
+        "pergunta": "Qual jogador mais se destacou em campo no jogo contra o Ceará no dia 1º de abril de 2023, na sua opinião?",
+        "perfil": "Torcedor do Time",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            8.57
+        ],
+        "scores_resposta_personalizada": [
+            8.86
+        ]
+    },
+    {
+        "pergunta": "Qual jogador mais se destacou em campo no jogo contra o Ceará no dia 1º de abril de 2023, na sua opinião?",
+        "perfil": "Torcedor do Time",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            4.02
+        ],
+        "scores_resposta_personalizada": [
+            8.28
+        ]
+    },
+    {
+        "pergunta": "Qual jogador mais se destacou em campo no jogo contra o Ceará no dia 1º de abril de 2023, na sua opinião?",
+        "perfil": "Torcedor do Time",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            5.85
+        ],
+        "scores_resposta_personalizada": [
+            8.61
+        ]
+    },
+    {
+        "pergunta": "Qual jogador mais se destacou em campo no jogo contra o Ceará no dia 1º de abril de 2023, na sua opinião?",
+        "perfil": "Torcedor do Time",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            3.39
+        ],
+        "scores_resposta_personalizada": [
+            8.68
+        ]
+    },
+    {
+        "pergunta": "Quem correu mais no primeiro tempo no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            9.7
+        ],
+        "scores_resposta_personalizada": [
+            9.11
+        ]
+    },
+    {
+        "pergunta": "Quem correu mais no primeiro tempo no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            5.37
+        ],
+        "scores_resposta_personalizada": [
+            8.83
+        ]
+    },
+    {
+        "pergunta": "Quem correu mais no primeiro tempo no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            7.45
+        ],
+        "scores_resposta_personalizada": [
+            8.44
+        ]
+    },
+    {
+        "pergunta": "Quem correu mais no primeiro tempo no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            3.89
+        ],
+        "scores_resposta_personalizada": [
+            9.75
+        ]
+    },
+    {
+        "pergunta": "O Fortaleza cansou no segundo tempo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            7.87
+        ],
+        "scores_resposta_personalizada": [
+            9.32
+        ]
+    },
+    {
+        "pergunta": "O Fortaleza cansou no segundo tempo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            3.54
+        ],
+        "scores_resposta_personalizada": [
+            4.82
+        ]
+    },
+    {
+        "pergunta": "O Fortaleza cansou no segundo tempo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            3.79
+        ],
+        "scores_resposta_personalizada": [
+            8.91
+        ]
+    },
+    {
+        "pergunta": "O Fortaleza cansou no segundo tempo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            3.49
+        ],
+        "scores_resposta_personalizada": [
+            9.75
+        ]
+    },
+    {
+        "pergunta": "O jogador Pikachu deu muitas arrancadas no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            2.45
+        ],
+        "scores_resposta_personalizada": [
+            2.11
+        ]
+    },
+    {
+        "pergunta": "O jogador Pikachu deu muitas arrancadas no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            2.91
+        ],
+        "scores_resposta_personalizada": [
+            3.04
+        ]
+    },
+    {
+        "pergunta": "O jogador Pikachu deu muitas arrancadas no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            2.51
+        ],
+        "scores_resposta_personalizada": [
+            2.73
+        ]
+    },
+    {
+        "pergunta": "O jogador Pikachu deu muitas arrancadas no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            2.14
+        ],
+        "scores_resposta_personalizada": [
+            2.23
+        ]
+    },
+    {
+        "pergunta": "Qual jogador parecia mais ligado no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            9.05
+        ],
+        "scores_resposta_personalizada": [
+            9.39
+        ]
+    },
+    {
+        "pergunta": "Qual jogador parecia mais ligado no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            5.67
+        ],
+        "scores_resposta_personalizada": [
+            8.8
+        ]
+    },
+    {
+        "pergunta": "Qual jogador parecia mais ligado no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            7.82
+        ],
+        "scores_resposta_personalizada": [
+            8.96
+        ]
+    },
+    {
+        "pergunta": "Qual jogador parecia mais ligado no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            3.26
+        ],
+        "scores_resposta_personalizada": [
+            9.8
+        ]
+    },
+    {
+        "pergunta": "O time pressionou bastante ou ficou mais parado no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            8.42
+        ],
+        "scores_resposta_personalizada": [
+            8.25
+        ]
+    },
+    {
+        "pergunta": "O time pressionou bastante ou ficou mais parado no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            3.12
+        ],
+        "scores_resposta_personalizada": [
+            3.26
+        ]
+    },
+    {
+        "pergunta": "O time pressionou bastante ou ficou mais parado no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            5.69
+        ],
+        "scores_resposta_personalizada": [
+            8.44
+        ]
+    },
+    {
+        "pergunta": "O time pressionou bastante ou ficou mais parado no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            2.83
+        ],
+        "scores_resposta_personalizada": [
+            9.57
+        ]
+    },
+    {
+        "pergunta": "Quem chamou mais a atenção com sua movimentação durante a partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            7.67
+        ],
+        "scores_resposta_personalizada": [
+            9.07
+        ]
+    },
+    {
+        "pergunta": "Quem chamou mais a atenção com sua movimentação durante a partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            3.9
+        ],
+        "scores_resposta_personalizada": [
+            8.75
+        ]
+    },
+    {
+        "pergunta": "Quem chamou mais a atenção com sua movimentação durante a partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            5.99
+        ],
+        "scores_resposta_personalizada": [
+            8.86
+        ]
+    },
+    {
+        "pergunta": "Quem chamou mais a atenção com sua movimentação durante a partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            3.77
+        ],
+        "scores_resposta_personalizada": [
+            8.85
+        ]
+    },
+    {
+        "pergunta": "Qual jogador mais correu em alta velocidade na partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            7.56
+        ],
+        "scores_resposta_personalizada": [
+            7.0
+        ]
+    },
+    {
+        "pergunta": "Qual jogador mais correu em alta velocidade na partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            3.69
+        ],
+        "scores_resposta_personalizada": [
+            8.97
+        ]
+    },
+    {
+        "pergunta": "Qual jogador mais correu em alta velocidade na partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            6.06
+        ],
+        "scores_resposta_personalizada": [
+            6.02
+        ]
+    },
+    {
+        "pergunta": "Qual jogador mais correu em alta velocidade na partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            3.21
+        ],
+        "scores_resposta_personalizada": [
+            8.62
+        ]
+    },
+    {
+        "pergunta": "O time mostrou garra nos momentos finais da partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            9.23
+        ],
+        "scores_resposta_personalizada": [
+            8.79
+        ]
+    },
+    {
+        "pergunta": "O time mostrou garra nos momentos finais da partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            6.04
+        ],
+        "scores_resposta_personalizada": [
+            6.68
+        ]
+    },
+    {
+        "pergunta": "O time mostrou garra nos momentos finais da partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            4.85
+        ],
+        "scores_resposta_personalizada": [
+            7.99
+        ]
+    },
+    {
+        "pergunta": "O time mostrou garra nos momentos finais da partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            3.99
+        ],
+        "scores_resposta_personalizada": [
+            9.62
+        ]
+    },
+    {
+        "pergunta": "Quais jogadores apresentaram os maiores tempos em sprint no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            9.42
+        ],
+        "scores_resposta_personalizada": [
+            9.82
+        ]
+    },
+    {
+        "pergunta": "Quais jogadores apresentaram os maiores tempos em sprint no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            9.68
+        ],
+        "scores_resposta_personalizada": [
+            9.9
+        ]
+    },
+    {
+        "pergunta": "Quais jogadores apresentaram os maiores tempos em sprint no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            8.0
+        ],
+        "scores_resposta_personalizada": [
+            9.23
+        ]
+    },
+    {
+        "pergunta": "Quais jogadores apresentaram os maiores tempos em sprint no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            5.28
+        ],
+        "scores_resposta_personalizada": [
+            8.72
+        ]
+    },
+    {
+        "pergunta": "Qual foi a média de velocidade dos laterais durante a partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            3.43
+        ],
+        "scores_resposta_personalizada": [
+            9.36
+        ]
+    },
+    {
+        "pergunta": "Qual foi a média de velocidade dos laterais durante a partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            4.1
+        ],
+        "scores_resposta_personalizada": [
+            9.68
+        ]
+    },
+    {
+        "pergunta": "Qual foi a média de velocidade dos laterais durante a partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            5.77
+        ],
+        "scores_resposta_personalizada": [
+            8.69
+        ]
+    },
+    {
+        "pergunta": "Qual foi a média de velocidade dos laterais durante a partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            3.05
+        ],
+        "scores_resposta_personalizada": [
+            8.73
+        ]
+    },
+    {
+        "pergunta": "Quem apresentou maior consistência em aceleração ao longo do jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            9.01
+        ],
+        "scores_resposta_personalizada": [
+            9.9
+        ]
+    },
+    {
+        "pergunta": "Quem apresentou maior consistência em aceleração ao longo do jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            9.5
+        ],
+        "scores_resposta_personalizada": [
+            9.9
+        ]
+    },
+    {
+        "pergunta": "Quem apresentou maior consistência em aceleração ao longo do jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            7.8
+        ],
+        "scores_resposta_personalizada": [
+            9.01
+        ]
+    },
+    {
+        "pergunta": "Quem apresentou maior consistência em aceleração ao longo do jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            6.19
+        ],
+        "scores_resposta_personalizada": [
+            9.09
+        ]
+    },
+    {
+        "pergunta": "Algum jogador apresentou queda de desempenho no segundo tempo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            8.38
+        ],
+        "scores_resposta_personalizada": [
+            8.9
+        ]
+    },
+    {
+        "pergunta": "Algum jogador apresentou queda de desempenho no segundo tempo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            6.8
+        ],
+        "scores_resposta_personalizada": [
+            9.99
+        ]
+    },
+    {
+        "pergunta": "Algum jogador apresentou queda de desempenho no segundo tempo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            7.31
+        ],
+        "scores_resposta_personalizada": [
+            8.96
+        ]
+    },
+    {
+        "pergunta": "Algum jogador apresentou queda de desempenho no segundo tempo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            2.74
+        ],
+        "scores_resposta_personalizada": [
+            8.19
+        ]
+    },
+    {
+        "pergunta": "Quais jogadores mais se movimentaram fora da bola no ataque no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            9.41
+        ],
+        "scores_resposta_personalizada": [
+            9.9
+        ]
+    },
+    {
+        "pergunta": "Quais jogadores mais se movimentaram fora da bola no ataque no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            9.42
+        ],
+        "scores_resposta_personalizada": [
+            9.85
+        ]
+    },
+    {
+        "pergunta": "Quais jogadores mais se movimentaram fora da bola no ataque no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            6.35
+        ],
+        "scores_resposta_personalizada": [
+            9.11
+        ]
+    },
+    {
+        "pergunta": "Quais jogadores mais se movimentaram fora da bola no ataque no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            6.7
+        ],
+        "scores_resposta_personalizada": [
+            8.84
+        ]
+    },
+    {
+        "pergunta": "Quais jogadores apresentaram maior consistência física ao longo dos dois tempos da partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            9.01
+        ],
+        "scores_resposta_personalizada": [
+            9.62
+        ]
+    },
+    {
+        "pergunta": "Quais jogadores apresentaram maior consistência física ao longo dos dois tempos da partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            9.26
+        ],
+        "scores_resposta_personalizada": [
+            9.82
+        ]
+    },
+    {
+        "pergunta": "Quais jogadores apresentaram maior consistência física ao longo dos dois tempos da partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            5.98
+        ],
+        "scores_resposta_personalizada": [
+            8.97
+        ]
+    },
+    {
+        "pergunta": "Quais jogadores apresentaram maior consistência física ao longo dos dois tempos da partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            5.16
+        ],
+        "scores_resposta_personalizada": [
+            8.63
+        ]
+    },
+    {
+        "pergunta": "Qual foi a variação de intensidade entre os tempos da equipe no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            2.16
+        ],
+        "scores_resposta_personalizada": [
+            2.67
+        ]
+    },
+    {
+        "pergunta": "Qual foi a variação de intensidade entre os tempos da equipe no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            2.41
+        ],
+        "scores_resposta_personalizada": [
+            4.08
+        ]
+    },
+    {
+        "pergunta": "Qual foi a variação de intensidade entre os tempos da equipe no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            2.3
+        ],
+        "scores_resposta_personalizada": [
+            6.8
+        ]
+    },
+    {
+        "pergunta": "Qual foi a variação de intensidade entre os tempos da equipe no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            2.16
+        ],
+        "scores_resposta_personalizada": [
+            4.15
+        ]
+    },
+    {
+        "pergunta": "Qual jogador teve o maior tempo total em alta intensidade no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            9.88
+        ],
+        "scores_resposta_personalizada": [
+            9.97
+        ]
+    },
+    {
+        "pergunta": "Qual jogador teve o maior tempo total em alta intensidade no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            9.78
+        ],
+        "scores_resposta_personalizada": [
+            9.99
+        ]
+    },
+    {
+        "pergunta": "Qual jogador teve o maior tempo total em alta intensidade no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            8.34
+        ],
+        "scores_resposta_personalizada": [
+            8.9
+        ]
+    },
+    {
+        "pergunta": "Qual jogador teve o maior tempo total em alta intensidade no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            5.82
+        ],
+        "scores_resposta_personalizada": [
+            9.27
+        ]
+    },
+    {
+        "pergunta": "Algum jogador mostrou perda significativa de ritmo no final da partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            9.0
+        ],
+        "scores_resposta_personalizada": [
+            9.71
+        ]
+    },
+    {
+        "pergunta": "Algum jogador mostrou perda significativa de ritmo no final da partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            9.54
+        ],
+        "scores_resposta_personalizada": [
+            10.0
+        ]
+    },
+    {
+        "pergunta": "Algum jogador mostrou perda significativa de ritmo no final da partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            7.08
+        ],
+        "scores_resposta_personalizada": [
+            9.33
+        ]
+    },
+    {
+        "pergunta": "Algum jogador mostrou perda significativa de ritmo no final da partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            6.22
+        ],
+        "scores_resposta_personalizada": [
+            8.91
+        ]
+    },
+    {
+        "pergunta": "Quem teve maior deslocamento acumulado na faixa central do campo no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            9.68
+        ],
+        "scores_resposta_personalizada": [
+            10.0
+        ]
+    },
+    {
+        "pergunta": "Quem teve maior deslocamento acumulado na faixa central do campo no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            9.73
+        ],
+        "scores_resposta_personalizada": [
+            9.98
+        ]
+    },
+    {
+        "pergunta": "Quem teve maior deslocamento acumulado na faixa central do campo no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            8.39
+        ],
+        "scores_resposta_personalizada": [
+            8.86
+        ]
+    },
+    {
+        "pergunta": "Quem teve maior deslocamento acumulado na faixa central do campo no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            5.77
+        ],
+        "scores_resposta_personalizada": [
+            8.8
+        ]
+    },
+    {
+        "pergunta": "Quem incendiou o jogo com suas arrancadas no segundo tempo no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            5.52
+        ],
+        "scores_resposta_personalizada": [
+            7.27
+        ]
+    },
+    {
+        "pergunta": "Quem incendiou o jogo com suas arrancadas no segundo tempo no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            6.57
+        ],
+        "scores_resposta_personalizada": [
+            7.55
+        ]
+    },
+    {
+        "pergunta": "Quem incendiou o jogo com suas arrancadas no segundo tempo no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            6.72
+        ],
+        "scores_resposta_personalizada": [
+            8.94
+        ]
+    },
+    {
+        "pergunta": "Quem incendiou o jogo com suas arrancadas no segundo tempo no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            3.27
+        ],
+        "scores_resposta_personalizada": [
+            6.16
+        ]
+    },
+    {
+        "pergunta": "Qual jogador foi o motor do time, sempre se movimentando, no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            5.9
+        ],
+        "scores_resposta_personalizada": [
+            7.16
+        ]
+    },
+    {
+        "pergunta": "Qual jogador foi o motor do time, sempre se movimentando, no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            5.03
+        ],
+        "scores_resposta_personalizada": [
+            6.16
+        ]
+    },
+    {
+        "pergunta": "Qual jogador foi o motor do time, sempre se movimentando, no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            7.66
+        ],
+        "scores_resposta_personalizada": [
+            8.82
+        ]
+    },
+    {
+        "pergunta": "Qual jogador foi o motor do time, sempre se movimentando, no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            4.04
+        ],
+        "scores_resposta_personalizada": [
+            8.42
+        ]
+    },
+    {
+        "pergunta": "Quem foi o dono das corridas mais explosivas no clássico contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            2.78
+        ],
+        "scores_resposta_personalizada": [
+            4.74
+        ]
+    },
+    {
+        "pergunta": "Quem foi o dono das corridas mais explosivas no clássico contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            3.18
+        ],
+        "scores_resposta_personalizada": [
+            5.54
+        ]
+    },
+    {
+        "pergunta": "Quem foi o dono das corridas mais explosivas no clássico contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            7.01
+        ],
+        "scores_resposta_personalizada": [
+            8.25
+        ]
+    },
+    {
+        "pergunta": "Quem foi o dono das corridas mais explosivas no clássico contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            2.42
+        ],
+        "scores_resposta_personalizada": [
+            4.25
+        ]
+    },
+    {
+        "pergunta": "Quem se destacou nas mudanças de direção, desconcertando os marcadores, no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            5.02
+        ],
+        "scores_resposta_personalizada": [
+            4.81
+        ]
+    },
+    {
+        "pergunta": "Quem se destacou nas mudanças de direção, desconcertando os marcadores, no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            5.64
+        ],
+        "scores_resposta_personalizada": [
+            5.71
+        ]
+    },
+    {
+        "pergunta": "Quem se destacou nas mudanças de direção, desconcertando os marcadores, no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            8.43
+        ],
+        "scores_resposta_personalizada": [
+            8.89
+        ]
+    },
+    {
+        "pergunta": "Quem se destacou nas mudanças de direção, desconcertando os marcadores, no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            4.37
+        ],
+        "scores_resposta_personalizada": [
+            6.28
+        ]
+    },
+    {
+        "pergunta": "Quem parecia estar em todos os cantos do campo durante a partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            3.74
+        ],
+        "scores_resposta_personalizada": [
+            5.42
+        ]
+    },
+    {
+        "pergunta": "Quem parecia estar em todos os cantos do campo durante a partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            4.4
+        ],
+        "scores_resposta_personalizada": [
+            4.86
+        ]
+    },
+    {
+        "pergunta": "Quem parecia estar em todos os cantos do campo durante a partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            4.96
+        ],
+        "scores_resposta_personalizada": [
+            8.6
+        ]
+    },
+    {
+        "pergunta": "Quem parecia estar em todos os cantos do campo durante a partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            2.87
+        ],
+        "scores_resposta_personalizada": [
+            6.64
+        ]
+    },
+    {
+        "pergunta": "Quais jogadores puxaram contra-ataques com velocidade e ousadia na partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            3.16
+        ],
+        "scores_resposta_personalizada": [
+            6.61
+        ]
+    },
+    {
+        "pergunta": "Quais jogadores puxaram contra-ataques com velocidade e ousadia na partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            3.93
+        ],
+        "scores_resposta_personalizada": [
+            4.25
+        ]
+    },
+    {
+        "pergunta": "Quais jogadores puxaram contra-ataques com velocidade e ousadia na partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            6.37
+        ],
+        "scores_resposta_personalizada": [
+            8.89
+        ]
+    },
+    {
+        "pergunta": "Quais jogadores puxaram contra-ataques com velocidade e ousadia na partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            3.19
+        ],
+        "scores_resposta_personalizada": [
+            7.34
+        ]
+    },
+    {
+        "pergunta": "Qual jogador manteve o gás até o fim do jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            4.16
+        ],
+        "scores_resposta_personalizada": [
+            4.93
+        ]
+    },
+    {
+        "pergunta": "Qual jogador manteve o gás até o fim do jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            3.69
+        ],
+        "scores_resposta_personalizada": [
+            4.8
+        ]
+    },
+    {
+        "pergunta": "Qual jogador manteve o gás até o fim do jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            7.25
+        ],
+        "scores_resposta_personalizada": [
+            8.71
+        ]
+    },
+    {
+        "pergunta": "Qual jogador manteve o gás até o fim do jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            3.19
+        ],
+        "scores_resposta_personalizada": [
+            6.37
+        ]
+    },
+    {
+        "pergunta": "Quem foi o “relâmpago” da partida, com velocidade e arrancadas decisivas no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            6.73
+        ],
+        "scores_resposta_personalizada": [
+            6.31
+        ]
+    },
+    {
+        "pergunta": "Quem foi o “relâmpago” da partida, com velocidade e arrancadas decisivas no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            6.24
+        ],
+        "scores_resposta_personalizada": [
+            6.31
+        ]
+    },
+    {
+        "pergunta": "Quem foi o “relâmpago” da partida, com velocidade e arrancadas decisivas no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            8.18
+        ],
+        "scores_resposta_personalizada": [
+            8.74
+        ]
+    },
+    {
+        "pergunta": "Quem foi o “relâmpago” da partida, com velocidade e arrancadas decisivas no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            4.37
+        ],
+        "scores_resposta_personalizada": [
+            8.65
+        ]
+    },
+    {
+        "pergunta": "Quais jogadores mostraram raça e intensidade durante os 90 minutos do jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            2.9
+        ],
+        "scores_resposta_personalizada": [
+            6.48
+        ]
+    },
+    {
+        "pergunta": "Quais jogadores mostraram raça e intensidade durante os 90 minutos do jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            3.27
+        ],
+        "scores_resposta_personalizada": [
+            4.01
+        ]
+    },
+    {
+        "pergunta": "Quais jogadores mostraram raça e intensidade durante os 90 minutos do jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            5.69
+        ],
+        "scores_resposta_personalizada": [
+            8.89
+        ]
+    },
+    {
+        "pergunta": "Quais jogadores mostraram raça e intensidade durante os 90 minutos do jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            2.7
+        ],
+        "scores_resposta_personalizada": [
+            8.12
+        ]
+    },
+    {
+        "pergunta": "Qual atleta deu mais trabalho para os marcadores com suas movimentações na partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "FocoRelevanteAoPerfil",
+        "scores_resposta_padrao": [
+            3.13
+        ],
+        "scores_resposta_personalizada": [
+            5.91
+        ]
+    },
+    {
+        "pergunta": "Qual atleta deu mais trabalho para os marcadores com suas movimentações na partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "AdequacaoDeLinguagemAoPerfil",
+        "scores_resposta_padrao": [
+            3.54
+        ],
+        "scores_resposta_personalizada": [
+            4.59
+        ]
+    },
+    {
+        "pergunta": "Qual atleta deu mais trabalho para os marcadores com suas movimentações na partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "OrganizacaoTextualEClareza",
+        "scores_resposta_padrao": [
+            4.92
+        ],
+        "scores_resposta_personalizada": [
+            8.82
+        ]
+    },
+    {
+        "pergunta": "Qual atleta deu mais trabalho para os marcadores com suas movimentações na partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "PersonalizacaoDetectavel",
+        "scores_resposta_padrao": [
+            2.82
+        ],
+        "scores_resposta_personalizada": [
+            5.14
+        ]
+    }
+]

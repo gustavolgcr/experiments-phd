@@ -1,0 +1,272 @@
+[
+    {
+        "pergunta": "O jogador Yago Pikachu correu muito no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "InferenciasNaoJustificadas",
+        "scores": [
+            2.89
+        ],
+        "reason": "The Actual Output includes subjective statements about Yago Pikachu's performance and effort, such as 'desempenho notável' and 'comprometimento', which are not directly supported by the data provided, which only states an average running time."
+    },
+    {
+        "pergunta": "O jogador Yago Pikachu correu muito no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "CoerenciaComPerfil",
+        "scores": [
+            8.8
+        ],
+        "reason": "The language style and vocabulary match a fan's perspective, with informal and emotional expressions like 'notável' and 'comprometimento'. The output aligns with a fan's interest in player performance. However, the technical detail of '1,11 minutos' might be slightly confusing without context."
+    },
+    {
+        "pergunta": "Qual jogador mais correu em alta velocidade na partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "InferenciasNaoJustificadas",
+        "scores": [
+            4.64
+        ],
+        "reason": "The Actual Output reports the data about Tomas Pochettino's speed but includes subjective statements about his commitment and appeal to fans, which are not supported by the data."
+    },
+    {
+        "pergunta": "Qual jogador mais correu em alta velocidade na partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "CoerenciaComPerfil",
+        "scores": [
+            8.74
+        ],
+        "reason": "The language style is suitable for a fan, with informal and supportive expressions. The output mentions Tomas Pochettino and his speed, aligning with the user's interest. However, it includes emotional expressions like 'comprometimento' and 'torcer', which may slightly deviate from a purely factual report."
+    },
+    {
+        "pergunta": "O Fortaleza acelerou mais no primeiro ou no segundo tempo?",
+        "perfil": "Torcedor do Time",
+        "criterio": "InferenciasNaoJustificadas",
+        "scores": [
+            1.94
+        ],
+        "reason": "The Actual Output is empty, providing no data or analysis to compare with the Input question about Fortaleza's performance."
+    },
+    {
+        "pergunta": "O Fortaleza acelerou mais no primeiro ou no segundo tempo?",
+        "perfil": "Torcedor do Time",
+        "criterio": "CoerenciaComPerfil",
+        "scores": [
+            0.29
+        ],
+        "reason": "The Actual Output is empty, providing no information to evaluate against the user profile or criteria."
+    },
+    {
+        "pergunta": "Quem foi o jogador que mais se movimentou durante o jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "InferenciasNaoJustificadas",
+        "scores": [
+            3.92
+        ],
+        "reason": "The Actual Output includes subjective statements about Tomas Pochettino's 'empenho e dedicação' and 'comprometimento', which are not directly supported by the data. It also implies strategic importance without explicit evidence, deviating from merely reporting the data."
+    },
+    {
+        "pergunta": "Quem foi o jogador que mais se movimentou durante o jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "CoerenciaComPerfil",
+        "scores": [
+            8.56
+        ],
+        "reason": "The language style and vocabulary match the user profile of a 'Torcedor do Time' with emotional and informal expressions like 'emocionante jogo' and 'Vamos torcer'. The content emphasizes player performance, aligning with fan interests. However, it includes slight technical detail with 'tempo total de movimento de 17,61 minutos'."
+    },
+    {
+        "pergunta": "O time cansou no segundo tempo do jogo contra o Ceará no dia 1º de abril de 2023?? Os dados mostram isso?",
+        "perfil": "Torcedor do Time",
+        "criterio": "InferenciasNaoJustificadas",
+        "scores": [
+            4.73
+        ],
+        "reason": "The Actual Output includes interpretations such as 'cansaço' and 'desgaste físico' not directly supported by the data, which only reports time spent in different activities."
+    },
+    {
+        "pergunta": "O time cansou no segundo tempo do jogo contra o Ceará no dia 1º de abril de 2023?? Os dados mostram isso?",
+        "perfil": "Torcedor do Time",
+        "criterio": "CoerenciaComPerfil",
+        "scores": [
+            9.02
+        ],
+        "reason": "The language style and vocabulary match the user profile of a 'Torcedor do Time' with informal and supportive expressions. The output uses accessible language without technical jargon, suitable for a non-technical audience. It includes emotional and opinionated expressions like 'Vamos torcer' which align with a fan's perspective. The content emphasizes the team's performance and potential fatigue, aligning with the interests of a sports fan."
+    },
+    {
+        "pergunta": "Qual jogador teve a maior distância percorrida em alta intensidade na partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "InferenciasNaoJustificadas",
+        "scores": [
+            5.03
+        ],
+        "reason": "The Actual Output includes subjective statements about Tomas Pochettino's performance being crucial and impacting strategy, which are not directly supported by the data provided. It goes beyond merely reporting the data."
+    },
+    {
+        "pergunta": "Qual jogador teve a maior distância percorrida em alta intensidade na partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "CoerenciaComPerfil",
+        "scores": [
+            9.59
+        ],
+        "reason": "The language style and vocabulary match the technical user profile of a team coach. The output uses relevant technical jargon like 'desempenho físico' and 'estratégia de jogo' suitable for a coach. There are no emotional or informal expressions, and the content focuses on performance metrics, aligning with the interests of a coach."
+    },
+    {
+        "pergunta": "Quais atletas apresentaram os maiores tempos em sprint no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "InferenciasNaoJustificadas",
+        "scores": [
+            7.87
+        ],
+        "reason": "The Actual Output accurately reports the sprint times as per the data, but includes an interpretative statement about the importance of the data for tactical adjustments, which is not directly supported by the data."
+    },
+    {
+        "pergunta": "Quais atletas apresentaram os maiores tempos em sprint no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "CoerenciaComPerfil",
+        "scores": [
+            9.92
+        ],
+        "reason": "The language style and vocabulary match the technical user profile, with no unsuitable jargon or emotional expressions. The content emphasizes performance data relevant to a team coach's interests."
+    },
+    {
+        "pergunta": "A média de aceleração caiu no segundo tempo na partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "InferenciasNaoJustificadas",
+        "scores": [
+            5.76
+        ],
+        "reason": "The Actual Output correctly reports the data showing a decrease in average acceleration from -0.0145 to -0.0225. However, it includes subjective interpretations about performance and recommendations for strategy without explicit data support."
+    },
+    {
+        "pergunta": "A média de aceleração caiu no segundo tempo na partida contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "CoerenciaComPerfil",
+        "scores": [
+            9.54
+        ],
+        "reason": "The language style and vocabulary match the technical user profile, using appropriate terms like 'média de aceleração' and 'desempenho físico'. The output avoids non-technical jargon and maintains a formal tone. The content aligns with the user's focus on performance analysis and strategy, addressing potential causes for the observed changes."
+    },
+    {
+        "pergunta": "Qual jogador demonstrou maior consistência de movimentação ao longo do jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "InferenciasNaoJustificadas",
+        "scores": [
+            5.82
+        ],
+        "reason": "The Actual Output reports the data about Tomas Pochettino's average speed, aligning with the Input. However, it includes interpretative statements about tactical analysis and strategic importance, which are not directly supported by the data provided."
+    },
+    {
+        "pergunta": "Qual jogador demonstrou maior consistência de movimentação ao longo do jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "CoerenciaComPerfil",
+        "scores": [
+            9.53
+        ],
+        "reason": "The language style and vocabulary match the technical user profile of a 'Técnico do Time'. The output uses appropriate technical jargon like 'média de velocidade' and 'análise tática', which are suitable for a technical audience. There are no emotional or informal expressions, and the emphasis on tactical analysis aligns with the interests of a team coach."
+    },
+    {
+        "pergunta": "Há evidência de queda de intensidade física em função do tempo de jogo no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "InferenciasNaoJustificadas",
+        "scores": [
+            5.24
+        ],
+        "reason": "The Actual Output includes interpretations about a decrease in physical intensity and suggests strategic actions, which are not directly supported by the data. It mentions specific players and their metrics but extends beyond mere data reporting by implying strategic importance."
+    },
+    {
+        "pergunta": "Há evidência de queda de intensidade física em função do tempo de jogo no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "criterio": "CoerenciaComPerfil",
+        "scores": [
+            9.15
+        ],
+        "reason": "The language style and vocabulary match the technical profile of a team coach, using terms like 'velocidade média' and 'aceleração média'. The output correctly identifies technical data trends, such as negative acceleration, without unnecessary jargon. The content aligns with the coach's interest in performance evaluation and tactical adjustments. However, the mention of specific player names not in the input slightly detracts from precision."
+    },
+    {
+        "pergunta": "Quais jogadores mais correram durante a partida e ajudaram a dar ritmo ao jogo?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "InferenciasNaoJustificadas",
+        "scores": [
+            7.41
+        ],
+        "reason": "The Actual Output accurately reports the data on distance covered by players, but includes an interpretative statement about Pochettino's importance in the game's dynamics, which is not directly supported by the data."
+    },
+    {
+        "pergunta": "Quais jogadores mais correram durante a partida e ajudaram a dar ritmo ao jogo?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "CoerenciaComPerfil",
+        "scores": [
+            9.22
+        ],
+        "reason": "The language style and vocabulary match the user profile of a game narrator, focusing on player performance and game dynamics. The output avoids technical jargon and maintains a formal tone suitable for a broad audience. It emphasizes player movement and its impact on the game's rhythm, aligning with the interests of a game narrator. However, it could slightly enhance engagement by adding more narrative flair typical of sports commentary."
+    },
+    {
+        "pergunta": "Quem fez mais sprints e arrancadas que empolgaram o torcedor no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "InferenciasNaoJustificadas",
+        "scores": [
+            6.72
+        ],
+        "reason": "The Actual Output accurately reports data on Tomas Pochettino's sprints and accelerations, aligning with the provided statistics. However, it includes subjective statements about 'impressiveness' and 'memorable moments' that are not directly supported by the data."
+    },
+    {
+        "pergunta": "Quem fez mais sprints e arrancadas que empolgaram o torcedor no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "CoerenciaComPerfil",
+        "scores": [
+            9.19
+        ],
+        "reason": "The language style and vocabulary match the user profile of a game narrator, with a focus on player performance and excitement. The output uses terms like 'sprints' and 'acelerações' which are suitable for the context. The content emphasizes Tomas Pochettino's performance, aligning with the interests of a game narrator. However, the mention of 'momentos mais memoráveis' introduces a slightly opinionated tone, which slightly deviates from a purely factual narration."
+    },
+    {
+        "pergunta": "Quais foram os jogadores que mais mantiveram a movimentação durante todo o jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "InferenciasNaoJustificadas",
+        "scores": [
+            6.78
+        ],
+        "reason": "The Actual Output accurately reports the data from the Input, listing players and their distances. However, it includes subjective statements about 'intensity and commitment' and 'crucial for tactical analysis,' which are not directly supported by the data."
+    },
+    {
+        "pergunta": "Quais foram os jogadores que mais mantiveram a movimentação durante todo o jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "CoerenciaComPerfil",
+        "scores": [
+            9.45
+        ],
+        "reason": "The language style and vocabulary match the user profile of a game narrator, focusing on player movement statistics. The output avoids technical jargon unsuitable for non-technical profiles and maintains a formal tone. The emphasis on player activity aligns with a narrator's interest in game dynamics. However, the mention of 'análises táticas' slightly leans towards technical analysis, which may not be the primary focus for a narrator."
+    },
+    {
+        "pergunta": "Teve queda de intensidade no segundo tempo do jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "InferenciasNaoJustificadas",
+        "scores": [
+            7.96
+        ],
+        "reason": "The Actual Output is empty, indicating it does not include interpretations, judgments, or subjective statements, aligning perfectly with the evaluation criteria."
+    },
+    {
+        "pergunta": "Teve queda de intensidade no segundo tempo do jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "CoerenciaComPerfil",
+        "scores": [
+            0.05
+        ],
+        "reason": "The Actual Output is empty, providing no language style, vocabulary, or content to evaluate against the user profile of a 'Narrador do Jogo'."
+    },
+    {
+        "pergunta": "Quem foi o destaque físico da partida, segundo os dados?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "InferenciasNaoJustificadas",
+        "scores": [
+            6.92
+        ],
+        "reason": "The Actual Output reports the data about Tomas Pochettino's average speed but includes subjective statements about his performance and contribution, which are not directly supported by the data."
+    },
+    {
+        "pergunta": "Quem foi o destaque físico da partida, segundo os dados?",
+        "perfil": "Narrador do Jogo",
+        "criterio": "CoerenciaComPerfil",
+        "scores": [
+            9.12
+        ],
+        "reason": "The language style and vocabulary match the user profile of a game narrator, providing clear and factual information. The output uses technical terms like 'média de velocidade' but remains accessible. The content focuses on player performance, aligning with a narrator's interest in game dynamics. However, the mention of the game's date might be unnecessary for the profile."
+    }
+]
