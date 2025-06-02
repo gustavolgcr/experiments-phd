@@ -1,0 +1,10 @@
+[
+    {
+        "pergunta": "Qual jogador percorreu mais metros em alta intensidade?",
+        "perfil": "Técnico do Time",
+        "dados_personareact": {"Nome_Jogador": "Kauan", "Total_Metros_Alta_Intensidade": 5.717391304347826},
+        "resposta_personareact": "Após análise dos dados obtidos, o jogador que se destacou ao percorrer a maior distância em alta intensidade foi Kauan, com um total de 5.717 metros. Essa métrica é significativa para nossa avaliação de desempenho e condicionamento físico dos atletas, especialmente em jogos que requerem uma alta intensidade de atividade. Compreender a capacidade de deslocamento em alta intensidade pode nos ajudar a planejar treinamentos mais eficazes e a otimizar a performance do time em competições futuras. Caso exista interesse, podemos explorar mais sobre os padrões de desempenhos de outros jogadores ou a eficácia do nosso sistema de treinamento.",
+        "dados_react": {"Nome_Jogador": "Kauan", "Media_Tempo_Sprintando": 0.5434782608695652},
+        "resposta_react_prompt": "O jogador que percorreu mais metros em alta intensidade é Kauan, com uma média de tempo sprintando de 0.5434782608695652."
+    }
+]

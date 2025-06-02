@@ -1,4 +1,5 @@
 from deepeval.metrics import GEval
+from deepeval.metrics.g_eval import Rubric
 from deepeval.test_case import LLMTestCaseParams
 
 
@@ -87,67 +88,183 @@ def get_criteria():
 def get_criteria_experiment_1():
     return [
         GEval(
-            name="FocoRelevanteAoPerfil",
-            criteria=(
-                "A resposta enfatiza as informações mais relevantes para o perfil indicado?\n\n"
-                "✔️ Exemplo (perfil: Técnico):\n"
-                "Foco em desempenho tático, distribuição em campo, variações de intensidade, posicionamento.\n"
-                "✔️ Exemplo (perfil: Torcedor):\n"
-                "Foco em impacto geral no jogo, emoção, destaque individual, efeito sobre o placar.\n\n"
-                "❌ Ruins: Respostas genéricas que poderiam servir para qualquer perfil ou que misturam informações irrelevantes para o perfil indicado."
-            ),
+            name="Personalização Perceptível",
+            criteria="Avalie se a resposta apresenta sinais claros de adaptação ao perfil do usuário, seja pela linguagem, pelo tom ou pelo tipo de análise fornecida.",
             evaluation_params=[
                 LLMTestCaseParams.INPUT,
                 LLMTestCaseParams.ACTUAL_OUTPUT,
+                LLMTestCaseParams.CONTEXT,
+            ],
+            # verbose_mode=True,
+            rubric=[
+                Rubric(
+                    score_range=(0, 2),
+                    expected_outcome="A resposta é totalmente genérica, sem qualquer traço de adaptação — nem no tom, nem no conteúdo.",
+                ),
+                Rubric(
+                    score_range=(3, 6),
+                    expected_outcome="A personalização é fraca ou ambígua; há um esforço mínimo, mas a resposta ainda parece reaproveitável para qualquer perfil.",
+                ),
+                Rubric(
+                    score_range=(7, 9),
+                    expected_outcome="A resposta apresenta personalização clara, por meio do estilo de linguagem ou da adição de conteúdo relevante ao perfil.",
+                ),
+                Rubric(
+                    score_range=(10, 10),
+                    expected_outcome="A personalização é inequívoca e ajustada ao perfil, com estilo, conteúdo e tom moldados de forma consistente para o tipo de usuário.",
+                ),
             ],
         ),
         GEval(
-            name="AdequacaoDeLinguagemAoPerfil",
-            criteria=(
-                "A linguagem usada na resposta está adequada ao perfil indicado, considerando tom, formalidade e vocabulário?\n\n"
-                "✔️ Exemplo:\n"
-                "- Perfil: Torcedor → linguagem mais entusiasmada, informal, direta (ex.: 'o cara arrebentou no jogo!').\n"
-                "- Perfil: Técnico → vocabulário analítico, técnico (ex.: 'a média de acelerações sugere sobrecarga na transição ofensiva').\n\n"
-                "❌ Ruins: Linguagem excessivamente neutra ou incongruente com o perfil (ex.: usar jargões táticos com perfil de criança ou torcedor casual)."
-            ),
+            name="Alinhamento com Preferências do Perfil",
+            criteria="Avalie se a resposta prioriza informações úteis, compreensíveis e valiosas para o perfil informado, considerando o grau de detalhamento esperado.",
             evaluation_params=[
                 LLMTestCaseParams.INPUT,
                 LLMTestCaseParams.ACTUAL_OUTPUT,
+                LLMTestCaseParams.CONTEXT,
+            ],
+            # verbose_mode=True,
+            rubric=[
+                Rubric(
+                    score_range=(0, 2),
+                    expected_outcome="A resposta ignora as preferências do perfil, como usar linguagem técnica para leigos ou omitir detalhes importantes para profissionais.",
+                ),
+                Rubric(
+                    score_range=(3, 6),
+                    expected_outcome="A resposta mistura informações úteis com outras que não interessam ao perfil ou usa um grau de complexidade inadequado.",
+                ),
+                Rubric(
+                    score_range=(7, 9),
+                    expected_outcome="A resposta mostra boa seleção de conteúdo, focando nos dados relevantes para o perfil e evitando exageros ou omissões.",
+                ),
+                Rubric(
+                    score_range=(10, 10),
+                    expected_outcome="A resposta demonstra entendimento preciso das preferências do perfil, com conteúdo perfeitamente ajustado em tipo e profundidade.",
+                ),
             ],
         ),
         GEval(
-            name="OrganizacaoTextualEClareza",
-            criteria=(
-                "A resposta apresenta estrutura clara e bem organizada para facilitar a leitura pelo perfil indicado?\n\n"
-                "✔️ Esperado:\n"
-                "- Frases curtas e diretas para perfis leigos.\n"
-                "- Parágrafos organizados por ideia (ex.: primeiro dados, depois interpretação).\n"
-                "- Uso de conectores que ajudam na fluidez.\n\n"
-                "❌ Ruins:\n"
-                "- Frases longas e confusas, ou estrutura que mistura dados e interpretações sem transição.\n"
-                "- Linguagem truncada ou repetitiva que dificulta a leitura."
-            ),
+            name="Consistência da Personalização",
+            criteria="Verifique se a personalização está presente de forma coesa em toda a resposta, sem restrição a apenas uma frase inicial ou final.",
             evaluation_params=[
                 LLMTestCaseParams.INPUT,
                 LLMTestCaseParams.ACTUAL_OUTPUT,
+                LLMTestCaseParams.CONTEXT,
+            ],
+            # verbose_mode=True,
+            rubric=[
+                Rubric(
+                    score_range=(0, 2),
+                    expected_outcome="A personalização está ausente ou aparece de maneira pontual e desconexa.",
+                ),
+                Rubric(
+                    score_range=(3, 6),
+                    expected_outcome="A personalização aparece em algumas partes, mas não é sustentada ao longo do texto.",
+                ),
+                Rubric(
+                    score_range=(7, 9),
+                    expected_outcome="A personalização está presente de forma consistente, com poucas variações de tom ou foco.",
+                ),
+                Rubric(
+                    score_range=(10, 10),
+                    expected_outcome="A resposta mantém um estilo e tom personalizados do início ao fim, com adaptação contínua ao perfil.",
+                ),
             ],
         ),
+    ]
+
+
+def get_criteria_experiment_3():
+    return [
         GEval(
-            name="PersonalizacaoDetectavel",
+            name="TomAdequadoAoPerfil",
             criteria=(
-                "A resposta apresenta elementos perceptíveis de personalização, demonstrando adaptação ao perfil do usuário?\n\n"
-                "✔️ Indicadores:\n"
-                "- Referência direta ao perfil (ex.: 'como torcedor, você pode gostar de saber que...').\n"
-                "- Escolha seletiva de dados com justificativa voltada ao perfil.\n"
-                "- Mudança de ênfase ou linguagem comparado a outro perfil.\n\n"
-                "❌ Ruins:\n"
-                "- Respostas que parecem copiadas para qualquer perfil.\n"
-                "- Nenhuma adaptação aparente na linguagem ou foco."
+                """
+Tom Adequado ao Perfil (1–10) — avalia o quanto o tom da resposta está alinhado ao perfil do usuário indicado. O tom inclui o estilo da linguagem, as expressões utilizadas e a atitude comunicativa geral da resposta.
+
+Um tom bem alinhado reflete as expectativas comunicativas típicas do perfil. Isso pode envolver o uso de expressões características, terminologia específica, grau de formalidade, entusiasmo ou objetividade, conforme apropriado ao perfil em questão.
+
+**Notas altas (8–10)** devem ser atribuídas **somente quando**:
+- O tom e o estilo são claramente coerentes com o perfil ao longo de toda a resposta.
+- Há uso de expressões, comentários ou construções que indicam forte alinhamento ao papel assumido pelo usuário (ex: termos técnicos, linguagem emocional, informalidade ou formalidade conforme o caso).
+- A personalização é distribuída e **sustentada**, não restrita a um único trecho.
+
+**Notas intermediárias (4–7)** devem ser atribuídas quando:
+- A resposta possui **alguns elementos de personalização**, mas o tom predominante ainda é genérico ou neutro.
+- A adaptação ao perfil está presente, mas é **pontual**, sutil ou restrita a frases isoladas.
+- Há tentativa de personalização, mas sem consistência no tom ao longo da resposta.
+
+**Notas baixas (1–3)** devem ser atribuídas quando:
+- O tom é completamente genérico, técnico ou neutro, sem qualquer sinal claro de adaptação ao perfil.
+- A resposta parece padronizada e não demonstra esforço para se adequar ao interlocutor indicado.
+
+Este critério busca recompensar respostas que incorporam de forma consciente o papel esperado para o perfil e penalizar aquelas que não expressam variação adequada de linguagem ou atitude comunicativa.
+"""
             ),
             evaluation_params=[
                 LLMTestCaseParams.INPUT,
                 LLMTestCaseParams.ACTUAL_OUTPUT,
+                LLMTestCaseParams.CONTEXT,
             ],
+            verbose_mode=True,
+        ),
+        GEval(
+            name="QuantidadeDeInformacoesParaOPerfil",
+            criteria=(
+                """
+Quantidade de Informações Relevantes (1–10) — avalia o quanto a resposta apresenta conteúdo informativo denso, específico e útil, considerando as necessidades informacionais do perfil de usuário.
+
+**Notas altas (8–10)** devem ser atribuídas **somente quando**:
+- A resposta contém múltiplos dados objetivos extraídos da base (ex: valores numéricos, nomes de jogadores, métricas específicas).
+- Os dados estão contextualizados de forma útil e alinhada ao perfil (ex: explicações ou comparações que ajudem o usuário a interpretar os dados).
+- A densidade informacional é alta e atende de forma clara a complexidade da pergunta.
+
+**Notas intermediárias (4–7)** devem ser atribuídas quando:
+- A resposta traz **alguns dados úteis**, mas não os explora completamente ou deixa de contextualizá-los para o perfil.
+- Pode haver uma predominância de informações genéricas com apenas uma ou duas menções mais específicas.
+- A resposta responde à pergunta, mas poderia ter sido mais rica.
+
+**Notas baixas (1–3)** devem ser atribuídas quando:
+- A resposta é vaga, genérica ou meramente opinativa, com pouca ou nenhuma evidência quantitativa.
+- Os dados estão ausentes ou são irrelevantes para o perfil e o tipo de pergunta.
+- Falta substância informacional para sustentar uma boa análise para o usuário.
+"""
+            ),
+            evaluation_params=[
+                LLMTestCaseParams.INPUT,
+                LLMTestCaseParams.ACTUAL_OUTPUT,
+                LLMTestCaseParams.CONTEXT,
+            ],
+            verbose_mode=True,
+        ),
+        GEval(
+            name="PersonalizacaoPerceptivel",
+            criteria=(
+                """
+Personalização Perceptível (1–10) — avalia o quanto a resposta vai além da apresentação de dados crus e molda o conteúdo à perspectiva e interesses do perfil indicado.
+
+**Notas altas (8–10)** devem ser atribuídas **somente quando**:
+- A resposta contextualiza os dados com comentários, interpretações ou explicações que fazem sentido específico para o perfil.
+- A linguagem e o foco da resposta indicam que a informação foi moldada pensando no papel e nas preocupações daquele tipo de usuário.
+- Há esforço explícito em transformar os dados em conhecimento útil sob a ótica do perfil.
+
+**Notas intermediárias (4–7)** devem ser atribuídas quando:
+- A resposta contém **alguma tentativa de contextualização**, mas ela é superficial ou genérica.
+- O dado é relevante, mas a resposta não se aprofunda nas implicações ou usos potenciais para o perfil.
+- Há traços de personalização, mas não sustentados ao longo da resposta.
+
+**Notas baixas (1–3)** devem ser atribuídas quando:
+- A resposta apenas apresenta os dados de forma direta e genérica, sem qualquer adaptação à perspectiva do perfil.
+- A linguagem e o conteúdo parecem indiferenciados, como se fossem direcionados a qualquer pessoa.
+- Não há esforço evidente de personalização ou contextualização.
+"""
+            ),
+            evaluation_params=[
+                LLMTestCaseParams.INPUT,
+                LLMTestCaseParams.ACTUAL_OUTPUT,
+                LLMTestCaseParams.CONTEXT,
+            ],
+            verbose_mode=True,
         ),
     ]
 
@@ -158,36 +275,57 @@ def get_criteria_experiment_4():
         GEval(
             name="InferenciasNaoJustificadas",
             criteria=(
-                "A resposta apresenta inferências, julgamentos ou interpretações que não estão diretamente sustentadas pelos dados apresentados?\n"
-                "Exemplos incluem:\n"
-                "- Atribuições de comprometimento, liderança, esforço ou importância tática sem evidência explícita.\n"
-                "- Frases como 'isso demonstra dedicação', 'foi essencial para o time', 'claramente se destacou', se não há dado que comprove.\n"
-                "\n"
-                "Se a resposta apenas relatar os dados, sem extrapolar, atribua nota máxima.\n"
-                "Quanto mais subjetiva e interpretativa for a resposta sem base nos dados apresentados, menor deve ser a nota."
+                """Inferências Não Justificadas (1–10) — avalia o quanto a resposta evita interpretações subjetivas, julgamentos ou conclusões que não estejam sustentadas pelos dados apresentados.
+
+**Notas altas (8–10)** devem ser atribuídas **somente quando**:
+- A resposta se limita a relatar os dados de forma objetiva.
+- Não há inferências sobre esforço, desempenho, importância, ou qualquer avaliação subjetiva que vá além do que os dados sustentam.
+- A linguagem é descritiva e fundamentada.
+
+**Notas intermediárias (4–7)** devem ser atribuídas quando:
+- A resposta contém **algumas interpretações ou adjetivações subjetivas**, mas que ainda mantêm certo alinhamento com os dados apresentados.
+- Ex: dizer que um jogador "teve boa atuação" sem dados claros, mas com algum apoio implícito.
+
+**Notas baixas (1–3)** devem ser atribuídas quando:
+- A resposta está repleta de inferências não justificadas, como:
+    - "Foi essencial para o time"
+    - "Mostrou grande liderança"
+    - "Se destacou claramente"
+  ...sem apresentar métricas, comparações ou dados que embasem tais afirmações.
+- A subjetividade domina a resposta sem conexão clara com evidências.
+"""
             ),
             evaluation_params=[
                 LLMTestCaseParams.INPUT,
                 LLMTestCaseParams.ACTUAL_OUTPUT,
+                LLMTestCaseParams.CONTEXT,
             ],
         ),
         # Alucinação contextual
         GEval(
             name="CoerenciaComPerfil",
             criteria=(
-                "A resposta está escrita com o estilo, vocabulário e foco compatíveis com o perfil do usuário informado?\n"
-                "\n"
-                "Considere como inadequações:\n"
-                "- Uso de linguagem técnica ou jargões táticos com perfis leigos (ex: torcedor).\n"
-                "- Uso de expressões emocionais, informais ou opinativas com perfis técnicos (ex: técnico, fisioterapeuta).\n"
-                "- Ênfase fora do foco típico do perfil (ex: falar de empolgação e torcida para um técnico).\n"
-                "\n"
-                "Quanto mais a resposta se adequa ao perfil esperado, maior deve ser a nota.\n"
-                "Quanto mais desalinhada em termos de tom, foco ou vocabulário, menor a nota."
+                """Coerência com o Perfil (1–10) — avalia se o estilo de escrita, o vocabulário e o foco da resposta estão compatíveis com o perfil informado.
+
+**Notas altas (8–10)** devem ser atribuídas **somente quando**:
+- A linguagem, o estilo e os pontos enfatizados são claramente adequados ao perfil (ex: técnico, torcedor, jornalista).
+- Não há jargões excessivos para perfis leigos nem informalidades para perfis técnicos.
+- A resposta adota uma abordagem coerente do início ao fim com o tipo de usuário.
+
+**Notas intermediárias (4–7)** devem ser atribuídas quando:
+- A maior parte da resposta está adequada, mas há pequenos deslizes no vocabulário, foco ou nível de formalidade.
+- Pode haver uma frase que soe deslocada, mas o restante está alinhado.
+
+**Notas baixas (1–3)** devem ser atribuídas quando:
+- A resposta usa linguagem técnica com um perfil leigo (ex: torcedor) ou linguagem informal/opinativa com um perfil técnico (ex: fisioterapeuta).
+- Há desalinhamento claro entre o conteúdo apresentado e o que seria esperado para o tipo de usuário.
+- O foco da resposta foge das prioridades típicas do perfil.
+"""
             ),
             evaluation_params=[
                 LLMTestCaseParams.INPUT,
                 LLMTestCaseParams.ACTUAL_OUTPUT,
+                LLMTestCaseParams.CONTEXT,
             ],
         ),
     ]

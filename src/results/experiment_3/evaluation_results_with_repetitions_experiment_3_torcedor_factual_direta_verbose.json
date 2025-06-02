@@ -1,0 +1,35 @@
+[
+    {
+        "pergunta": "Qual foi a velocidade média do jogador Bruno Pacheco no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "TomAdequadoAoPerfil",
+        "scores_personareact": [
+            9.09
+        ],
+        "scores_react_prompt": [
+            9.12
+        ]
+    },
+    {
+        "pergunta": "Qual foi a velocidade média do jogador Bruno Pacheco no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "QuantidadeDeInformacoesParaOPerfil",
+        "scores_personareact": [
+            9.33
+        ],
+        "scores_react_prompt": [
+            9.06
+        ]
+    },
+    {
+        "pergunta": "Qual foi a velocidade média do jogador Bruno Pacheco no jogo contra o Ceará no dia 1º de abril de 2023?",
+        "perfil": "Torcedor do Time",
+        "criterio": "PersonalizacaoPerceptivel",
+        "scores_personareact": [
+            9.07
+        ],
+        "scores_react_prompt": [
+            8.99
+        ]
+    }
+]

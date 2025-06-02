@@ -1,0 +1,10 @@
+[
+    {
+        "pergunta": "Qual jogador percorreu mais metros em alta intensidade?",
+        "perfil": "Preparador Físico",
+        "dados_personareact": {"Nome_Jogador": "Kauan", "Metros_Alta_Intensidade": 5.717391304347826},
+        "resposta_personareact": "Após análise dos dados de desempenho, identificamos que o jogador que percorreu a maior distância em alta intensidade foi Kauan, totalizando 5.717 metros. Este dado é crucial para avaliações de intensidade de esforço e pode auxiliar na elaboração de treinos mais eficazes, além de servir como referência comparativa para outros atletas do elenco. Caso necessite de mais detalhes sobre a distribuição dessa intensidade ao longo do jogo, estou à disposição para ajudar.",
+        "dados_react": {"Nome_Jogador": "Kauan", "Metros_Alta_Intensidade": 5.717391304347826},
+        "resposta_react_prompt": "O jogador que percorreu mais metros em alta intensidade foi Kauan, com um total de 5.717 metros."
+    }
+]

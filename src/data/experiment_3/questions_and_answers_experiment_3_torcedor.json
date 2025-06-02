@@ -1,0 +1,10 @@
+[
+    {
+        "pergunta": "O Bruno Pacheco correu bem naquele jogo contra o Ceará do dia 1 de abril ou ficou devendo na velocidade?",
+        "perfil": "Torcedor do Time",
+        "dados_react": "{'Velocidade_Media': 1.3622634444889454}",
+        "resposta_react_prompt": "Bruno Pacheco teve uma velocidade média de 1.36 no jogo contra o Ceará, o que indica que ele correu bem, mas ainda pode melhorar.",
+        "dados_personareact": "{'Velocidade_Media': 1.3622634444889454}",
+        "resposta_personareact": "Ah, meu amigo! No jogo contra o Ceará no dia 1 de abril, o Bruno Pacheco realmente ficou devendo na velocidade. Ele não conseguiu mostrar aquele gás todo que a gente espera dele. Com uma velocidade média de apenas 1.36 m/s, dá pra ver que ele não teve a performance que a torcida esperava. Acredito que ele poderia ter atacado mais, dado aquele sprint que a galera ama ver! Vamos torcer para que ele se recupere e volte a ser o leão em campo que conhecemos!"
+    }
+]

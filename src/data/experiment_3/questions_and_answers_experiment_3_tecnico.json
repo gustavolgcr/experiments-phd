@@ -1,0 +1,10 @@
+[
+    {
+        "pergunta": "Qual foi a velocidade média registrada por Bruno Pacheco no jogo contra o Ceará em 1º de abril de 2023?",
+        "perfil": "Técnico do Time",
+        "dados_react": "{'Velocidade_Media': 1.3622634444889454}",
+        "resposta_react_prompt": "A velocidade média registrada por Bruno Pacheco no jogo contra o Ceará em 1º de abril de 2023 foi de 1.36 m/s, o que demonstra um bom desempenho em campo, contribuindo para a dinâmica do jogo e a movimentação defensiva.",
+        "dados_personareact": "{\n  'jogador_id': 1,\n  'nome_jogador': 'Bruno Pacheco',\n  'jogo_id': 1,\n  'data_jogo': '2023-04-01',\n  'velocidade_media': 5.37984504497798\n}",
+        "resposta_personareact": "A velocidade média registrada por Bruno Pacheco no jogo contra o Ceará em 1º de abril de 2023 foi de 5.38 km/h. Esse dado é fundamental para avaliar seu desempenho em campo, especialmente considerando aspectos como o posicionamento e a capacidade de apoiar tanto a defesa quanto o ataque durante a partida. Se precisar de mais informações sobre outros aspectos do jogo, estou à disposição."
+    }
+]

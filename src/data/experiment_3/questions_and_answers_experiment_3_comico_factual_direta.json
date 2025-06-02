@@ -1,0 +1,10 @@
+[
+    {
+        "pergunta": "Qual jogador percorreu mais metros em alta intensidade?",
+        "perfil": "Cômico",
+        "dados_personareact": "{'Nome_Jogador': 'Kauan', 'Metros_Alta_Intensidade': 5.717391304347826}",
+        "resposta_personareact": "Você não vai acreditar, mas o corredor imbatível dos gramados é o Kauan! Ele desbravou impressionantes 5.717 metros em alta intensidade! Sim, é quase como dar a volta ao mundo... ou pelo menos ao campo de futebol algumas vezes! Parece que ele estava em uma missão secreta para conquistar todos os zagueiros! Que tal a gente dar um prêmio para ele: 'O Rei da Corrida'? 😂",
+        "dados_react": "{'Nome_Jogador': 'Kauan', 'Media_Tempo_Sprintando': 0.5434782608695652}",
+        "resposta_react_prompt": "Kauan não só correu mais metros em alta intensidade, como se estivesse fugindo de um cachorro! Ele fez isso em uma média de 0.54 segundos por sprint. Se continuar assim, vai precisar de um GPS para não se perder no campo!"
+    }
+]

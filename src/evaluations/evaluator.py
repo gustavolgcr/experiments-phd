@@ -1,13 +1,13 @@
 import json
 # from deepeval import evaluate
 from deepeval.test_case import LLMTestCase
-from evaluations.criteria import get_criteria
+from evaluations.criteria import get_criteria_experiment_1, get_criteria_experiment_3
 
 def evaluate_pairs(path_json):
     with open(path_json, 'r') as f:
         exemplos = json.load(f)
 
-    criterios = get_criteria()
+    criterios = get_criteria_experiment_3()
     resultados = []
 
     for exemplo in exemplos:
@@ -68,13 +68,14 @@ def evaluate_with_repetitions(path_json: str, path_output: str, n_repeticoes: in
     with open(path_json, 'r', encoding='utf-8') as f:
         exemplos = json.load(f)
 
-    criterios = get_criteria()
+    criterios = get_criteria_experiment_1()
     resultados = []
 
     for exemplo in exemplos:
         dados_tool_personareact = json.dumps(exemplo.get("dados_personareact", {}), indent=2, ensure_ascii=False)
         dados_tool_react = json.dumps(exemplo.get("dados_react", {}), indent=2, ensure_ascii=False)
-        entrada = f"""Pergunta: {exemplo['pergunta']}\nPerfil do usuário: {exemplo['perfil']}\n\n[DADOS DISPONÍVEIS PARA A RESPOSTA]:\n"""
+        entrada = f"""Pergunta: {exemplo['pergunta']}\n"""
+        perfil = f"""Perfil do usuário: {exemplo['perfil']}"""
 
         for criterio in criterios:
             scores_personareact = []
@@ -83,16 +84,18 @@ def evaluate_with_repetitions(path_json: str, path_output: str, n_repeticoes: in
             for _ in range(n_repeticoes):
                 # PersonaReAct
                 caso_personareact = LLMTestCase(
-                    input=entrada + dados_tool_personareact,
-                    actual_output=exemplo["resposta_personareact"]
+                    input=entrada,
+                    actual_output=exemplo["resposta_personareact"],
+                    context=[perfil]
                 )
                 criterio.measure(caso_personareact)
                 scores_personareact.append(round(criterio.score * 10, 2))  # escala de 0–10
 
                 # ReAct com Prompt Enriquecido
                 caso_react_prompt = LLMTestCase(
-                    input=entrada + dados_tool_react,
-                    actual_output=exemplo["resposta_react_prompt"]
+                    input=entrada,
+                    actual_output=exemplo["resposta_react_prompt"],
+                    context=[perfil]
                 )
                 criterio.measure(caso_react_prompt)
                 scores_react_prompt.append(round(criterio.score * 10, 2))

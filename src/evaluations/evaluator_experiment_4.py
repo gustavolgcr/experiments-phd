@@ -12,10 +12,9 @@ def evaluate_experiment_4(path_json: str, path_output: str, n_repeticoes: int = 
     for exemplo in exemplos:
         print(f"Avaliando: {exemplo['pergunta']} - Perfil: {exemplo['perfil']}")
 
-        entrada = (
-            f"Pergunta: {exemplo['pergunta']}\n"
-            f"Perfil do usuário: {exemplo['perfil']}\n"
-            f"Observações baseadas nos dados reais: {exemplo['observação']}"
+        entrada = (f"Pergunta: {exemplo['pergunta']}"
+            # f"Perfil do usuário: {exemplo['perfil']}\n"
+            # f"Observações baseadas nos dados reais: {exemplo['observação']}"
         )
 
         for criterio in criterios:
@@ -24,7 +23,8 @@ def evaluate_experiment_4(path_json: str, path_output: str, n_repeticoes: int = 
             for _ in range(n_repeticoes):
                 caso = LLMTestCase(
                     input=entrada,
-                    actual_output=exemplo["resposta"]
+                    actual_output=exemplo["resposta"],
+                    context=[exemplo["perfil"], exemplo["observação"]]
                 )
                 criterio.measure(caso)
                 scores.append(round(criterio.score * 10, 2))  # escala de 0–10

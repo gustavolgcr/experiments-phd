@@ -1,0 +1,10 @@
+[
+    {
+        "pergunta": "Qual jogador percorreu mais metros em alta intensidade?",
+        "perfil": "Influenciador Digital",
+        "dados_personareact": {"Nome_Jogador": "Kauan", "Metros_Alta_Intensidade": 5.717391304347826},
+        "resposta_personareact": "Confira este dado importante: o jogador Kauan se destacou ao percorrer impressionantes 5.717 metros em alta intensidade durante a partida. Essa métrica, bastante relevante para análises de desempenho, evidencia não apenas sua resistência, mas também sua capacidade de influenciar o jogo em momentos críticos. Para um influenciador digital como você, compartilhar essas estatísticas pode gerar um grande engajamento entre seus seguidores, além de demonstrar seu conhecimento sobre o desempenho atlético. Continue assim e não hesite em trazer mais análises como essa para o seu conteúdo!",
+        "dados_react": {"Nome_Jogador": "Kauan", "Metros_Alta_Intensidade": 5.717391304347826},
+        "resposta_react_prompt": "O jogador que percorreu mais metros em alta intensidade é Kauan, com um total de 5.717 metros."
+    }
+]
